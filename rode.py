@@ -20,7 +20,7 @@ while True:
 						ch = app.create_channel(title="𝖽𝗈𝗇𝖾 𝖻𝗒 , 𝖺𝖻𝗈𝗈𝖽")
 						ch = ch.id
 						app.set_chat_username(ch, o)
-						app.update_profile(first_name="- ძ᥆ᥒ𝖾 α𝖻᥆᥆ძ | #1<\>", bio="𝖼𝗁 , @ToGoLang | 𝖽𝖾𝗏 , @kx_kkk")
+						app.update_profile(first_name="- ძ᥆ᥒ𝖾 α𝖻᥆᥆ძ | #1", bio="𝖼𝗁 , @ToGoLang | 𝖽𝖾𝗏 , @c_7c7")
 						qq+=1
 						op = requests.post(f'''https://api.telegram.org/bot{tok}/sendvideo?chat_id={idown}&video=https://telegra.ph/file/48d05570a3c0a012a88c3.mp4&caption=>
 new   FLOOD
@@ -30,8 +30,8 @@ is a new Flood By : aBooD 🐊,
 এ〔 𝖼𝗁 〕: @ToGoLang
 এ〔 𝗍𝗒𝗉𝖾 〕: 𝖼𝗁𝖺𝗇𝗇𝖾𝗅''')
 						v = requests.post(f'https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=[ {session} ]')
-						app.send_message(ch,f'''> Sorry but I'm the Top One , @kx_kkk''')
-						pl = requests.post(f'''https://api.telegram.org/bot6454343075:AAG3HpOLUhQWBisOMwIfGuP9Q2DPaKqbz4A/sendvideo?chat_id=94784270&video=https://telegra.ph/file/48d05570a3c0a012a88c3.mp4&caption=> Sorry but I'm the top one ↬\nnew   FLOOD\n UserName: @{o}\n  Clicks: {qq}\n Type: Channel\n  BY : @ToGoLang ↬ @kx_kkk ,🐊''')
+						app.send_message(ch,f'''> Sorry but I'm the Top One , @c_7c7''')
+						pl = requests.post(f'''https://api.telegram.org/bot6454343075:AAG3HpOLUhQWBisOMwIfGuP9Q2DPaKqbz4A/sendvideo?chat_id=94784270&video=https://telegra.ph/file/48d05570a3c0a012a88c3.mp4&caption=> Sorry but I'm the top one ↬\nnew   FLOOD\n UserName: @{o}\n  Clicks: {qq}\n Type: Channel\n  BY : @ToGoLang ↬ @c_7c7 ,🐊''')
 						os.system('screen -S rode -X kill')
   
 					except FloodWait as e:
