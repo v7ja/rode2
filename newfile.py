@@ -22,7 +22,7 @@ else:
 	print("Ok .")
 info = open("info.txt",'r').read();token = info.split('\n')[0];own_id = info.split('\n')[1]
 bot = telebot.TeleBot(token)
-SaiF = types.InlineKeyboardButton(text = "- aBooD ☬ .", url = 'https://t.me/kx_kkk')
+SaiF = types.InlineKeyboardButton(text = "- aBooD ☬ .", url = 'https://t.me/c_7c7')
 channel = types.InlineKeyboardButton(text = "- Ch  .", url = 'https://t.me/ToGoLang')
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -70,7 +70,7 @@ def start(message):
     if str(id) == own_id:
     	bot.send_video(message.chat.id,ph,caption=f"""*- 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 {message.chat.first_name} , 
 𝒊𝒏 𝒕𝒉𝒆 𝒄𝒉𝒆𝒄𝒌𝒆𝒓 𝒖𝒔𝒆𝒓 𝒏𝒂𝒎𝒆 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 
-𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒅 𝒃𝒚 : @kx_kkk 🇮🇶 , .*""",parse_mode="markdown",reply_markup=mar)
+𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒅 𝒃𝒚 : @c_7c7 🇮🇶 , .*""",parse_mode="markdown",reply_markup=mar)
 @bot.message_handler(func=lambda m:True)
 def text(message):
  	acc = message.text
@@ -83,7 +83,7 @@ def text(message):
  			except:
  				bot.send_message(message.chat.id, text="- There is no user .")
  		if acc == "• 𝖠𝖽𝖽 𝖴𝗌𝖤𝗋 •":
- 			bot.send_message(message.chat.id, text="- Send /user with user like this \n /user @ToGoLang ! @kx_kkk' ")
+ 			bot.send_message(message.chat.id, text="- Send /user with user like this \n /user @ToGoLang' ")
  		if acc == "• 𝖠𝖽𝖽 𝖲𝖫𝖾𝖾𝖯 •":
  			bot.send_message(message.chat.id, text="- Send /sleep with sleep like this \n /sleep 0 ")
  		if "/user" in acc and "@" in acc:
