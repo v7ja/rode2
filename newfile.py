@@ -49,7 +49,7 @@ def start(message):
     C = types.KeyboardButton("• 𝖣𝖾𝖫𝖾𝗍𝖾 𝖴𝗌𝖤𝗋 •")
     D = types.KeyboardButton(f"• 𝖲𝖫𝖾𝖾𝖯 : {sleep} •")
     E = types.KeyboardButton("• 𝖠𝖽𝖽 𝖲𝖫𝖾𝖾𝖯 •")
-    G = types.KeyboardButton("• 𝖱𝗎𝗇 Account •")
+    G = types.KeyboardButton("• 𝖱𝗎N •")
     H = types.KeyboardButton("• 𝖲𝖳𝗈𝖯 Account •")
     chrun = types.KeyboardButton("• 𝖱𝗎𝗇 channel •")
     chstop = types.KeyboardButton("• 𝖲𝖳𝗈𝖯 channel •")
@@ -68,7 +68,9 @@ def start(message):
     mar.add(chek)
     ph = "https://telegra.ph/file/cfa8d23ac6a45eb51d8dd.mp4"
     if str(id) == own_id:
-    	bot.send_video(message.chat.id,ph,caption=f"""*- Hi In Bot By : @kx_kkk 🇮🇶 , {message.chat.first_name} .*""",parse_mode="markdown",reply_markup=mar)
+    	bot.send_video(message.chat.id,ph,caption=f"""*- 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 {message.chat.first_name} , 
+𝒊𝒏 𝒕𝒉𝒆 𝒄𝒉𝒆𝒄𝒌𝒆𝒓 𝒖𝒔𝒆𝒓 𝒏𝒂𝒎𝒆 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 
+𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒅 𝒃𝒚 : @kx_kkk 🇮🇶 , .*""",parse_mode="markdown",reply_markup=mar)
 @bot.message_handler(func=lambda m:True)
 def text(message):
  	acc = message.text
@@ -106,7 +108,7 @@ def text(message):
  				bot.send_message(message.chat.id, text="- Sleep has been added")
  			except:
  				bot.send_message(message.chat.id, text="- A problem occurred, please try again .")
- 		if acc == "• 𝖱𝗎𝗇 Account •":
+ 		if acc == "• 𝖱𝗎N •":
  			try:
  				bot.send_message(message.chat.id, text="- The flood [ account ] bot has been activated .🐊")
  				system("screen -S rode1 -X kill")
@@ -162,7 +164,7 @@ def text(message):
  			try:
  				document = open('account.txt', 'rb')
  				m = len(open("account.txt").readlines())
- 				bot.send_document(message.chat.id,document,caption=f"- The number of your accounts : {m}\nBy : @ToGoLang ! @kx_kkk'")
+ 				bot.send_document(message.chat.id,document,caption=f"- The number of your accounts : {m}\nBy : @ToGoLang '")
  			except:
  				bot.send_message(message.chat.id, text="- There are no accounts .")
 bot.polling(none_stop=True)
